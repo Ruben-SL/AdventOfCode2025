@@ -1,0 +1,23 @@
+{
+  "name": "adventofcode2025",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Ruben-SL/AdventOfCode2025#readme",
+  "bugs": {
+    "url": "https://github.com/Ruben-SL/AdventOfCode2025/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruben-SL/AdventOfCode2025.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "1": "npx tsx day-1/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
