@@ -15,7 +15,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "1": "npx tsx day-1/index.ts"
+    "1": "npx tsx day-1/index.ts",
+    "2": "npx tsx day-2/index.ts"
   },
   "dependencies": {
     "typescript": "^5.9.3"
