@@ -1,1 +1,30 @@
+import fs from 'fs';
+
 console.log('Hello, Advent of Code 2025!');
+const startingRotation = 50;
+let currentRotation = startingRotation;
+let password = 0;
+
+fs.readFileSync('./day-1/input.txt', 'utf-8')
+  .split('\n')
+  .forEach((line) => {
+    if (!line) return;
+    const direction = line.charAt(0);
+    const rotation = parseInt(line.substring(1));
+
+    console.log(`Direction: ${direction}, Rotation: ${rotation} current: ${currentRotation}`);
+    for (let i = 0; i < rotation; i++) {
+      currentRotation += direction === 'R' ? 1 : -1;
+      if (currentRotation === 100) {
+        currentRotation += -100;
+      }
+      if (currentRotation < 0) {
+        currentRotation += 100;
+      }
+      if (currentRotation === 0) {
+        password += 1;
+      }
+    }
+  });
+
+console.log(`password: ${password}`);

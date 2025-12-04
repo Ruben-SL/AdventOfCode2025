@@ -24,7 +24,7 @@
         "outDir": "./dist"
     },
     "include": [
-        "./src/**/*.ts"
+        "./**/*.ts"
     ], // Include all TypeScript files in the src folder
     "exclude": [
         "node_modules",
