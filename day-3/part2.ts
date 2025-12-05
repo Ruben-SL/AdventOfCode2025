@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-console.log('Advent of Code 2025 - Day 3 - Part 1');
+console.log('Advent of Code 2025 - Day 3 - Part 2');
 let answer = 0;
 
 fs.readFileSync('./day-3/input.txt', 'utf-8')
