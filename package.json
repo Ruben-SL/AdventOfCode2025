@@ -18,7 +18,8 @@
     "1": "npx tsx day-1/index.ts",
     "2-1": "npx tsx day-2/part1.ts",
     "2-2": "npx tsx day-2/part2.ts",
-    "3-1": "npx tsx day-3/part1.ts"
+    "3-1": "npx tsx day-3/part1.ts",
+    "3-2": "npx tsx day-3/part2.ts"
   },
   "dependencies": {
     "typescript": "^5.9.3"
